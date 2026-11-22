@@ -8,6 +8,13 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>26</maven.compiler.release>
-        <exec.mainClass>com.mycompany.phishingemailchecker.PhishingEmailChecker</exec.mainClass>
+        
+        <!-- 
+          WHY I CHANGED THIS:
+          NetBeans auto-generated a default main class name that didn't match 
+          the file I actually created. I pointed it to 'Main' so the green Run 
+          button executes my Phishing Checker instead of crashing.
+        -->
+        <exec.mainClass>com.mycompany.phishingemailchecker.Main</exec.mainClass>
     </properties>
 </project>
